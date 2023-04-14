@@ -40,6 +40,7 @@ public class ex_4 {
         System.out.printf("введите %s\n", helpText);
         Scanner scanner = new Scanner(System.in);
         String row = scanner.nextLine();
+        scanner.close();
         return row;
     }
 }
